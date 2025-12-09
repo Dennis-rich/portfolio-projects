@@ -1,0 +1,13 @@
+{
+  "best_f2_score": 0.7476420519898781,
+  "best_precision": 0.47899778924097275,
+  "best_recall": 0.8695652173913043,
+  "best_params": {
+    "class_weight": "cw_1_4",
+    "C": 0.09290954395290972,
+    "max_iter": 1182,
+    "tol": 1.2528134293621751e-05
+  },
+  "best_trial_number": 11,
+  "datetime": "2025-12-06T17:04:16.322914"
+}

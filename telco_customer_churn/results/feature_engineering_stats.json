@@ -1,0 +1,11 @@
+{
+  "monthly_q75": 90.0,
+  "new_features_mean": {
+    "tenure_contract_risk": 0.09276329357314024,
+    "contract_investment": 2370.241650729683
+  },
+  "new_features_std": {
+    "tenure_contract_risk": 0.14561714022527414,
+    "contract_investment": 3026.8316650673705
+  }
+}

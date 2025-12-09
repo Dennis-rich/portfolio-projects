@@ -1,0 +1,10 @@
+{
+    "iterations": 1688,
+    "learning_rate": 0.07261753994193974,
+    "depth": 9,
+    "l2_leaf_reg": 3.0042815247250934,
+    "random_strength": 0.717460700311276,
+    "bagging_temperature": 0.8795048980746617,
+    "min_data_in_leaf": 1,
+    "task_type": "CPU"
+}

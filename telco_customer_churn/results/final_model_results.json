@@ -1,0 +1,197 @@
+{
+  "test_metrics": {
+    "accuracy": 0.7721788502484032,
+    "precision": 0.5526838966202783,
+    "recall": 0.7433155080213903,
+    "f1": 0.6339794754846066,
+    "f2": 0.6953476738369184
+  },
+  "threshold": 0.6583,
+  "best_params": {
+    "C": 0.09290954395290972,
+    "penalty": "l1",
+    "solver": "saga",
+    "class_weight": {
+      "0": 1,
+      "1": 4
+    },
+    "max_iter": 1182,
+    "tol": 1.2528134293621751e-05,
+    "random_state": 42
+  },
+  "feature_importance": [
+    {
+      "feature": "num__MonthlyCharges",
+      "coefficient": 0.8689293740996128,
+      "abs_coeff": 0.8689293740996128
+    },
+    {
+      "feature": "ord__Contract",
+      "coefficient": -0.8601708724673148,
+      "abs_coeff": 0.8601708724673148
+    },
+    {
+      "feature": "nom__PhoneService_Yes",
+      "coefficient": -0.8588497871337251,
+      "abs_coeff": 0.8588497871337251
+    },
+    {
+      "feature": "nom__OnlineSecurity_Yes",
+      "coefficient": -0.46629640491335267,
+      "abs_coeff": 0.46629640491335267
+    },
+    {
+      "feature": "num__tenure_contract_risk_normalized",
+      "coefficient": 0.44823104675486075,
+      "abs_coeff": 0.44823104675486075
+    },
+    {
+      "feature": "nom__TechSupport_Yes",
+      "coefficient": -0.37385076954587726,
+      "abs_coeff": 0.37385076954587726
+    },
+    {
+      "feature": "nom__PaymentMethod_Electronic check",
+      "coefficient": 0.3710209934263208,
+      "abs_coeff": 0.3710209934263208
+    },
+    {
+      "feature": "nom__PaperlessBilling_Yes",
+      "coefficient": 0.3189373544962879,
+      "abs_coeff": 0.3189373544962879
+    },
+    {
+      "feature": "num__tenure",
+      "coefficient": -0.2852678765656984,
+      "abs_coeff": 0.2852678765656984
+    },
+    {
+      "feature": "bin__high_charge_new_client",
+      "coefficient": 0.2796097881849501,
+      "abs_coeff": 0.2796097881849501
+    },
+    {
+      "feature": "nom__OnlineBackup_Yes",
+      "coefficient": -0.22607094966694435,
+      "abs_coeff": 0.22607094966694435
+    },
+    {
+      "feature": "nom__InternetService_Fiber optic",
+      "coefficient": 0.17641591253813796,
+      "abs_coeff": 0.17641591253813796
+    },
+    {
+      "feature": "bin__long_term_monthly",
+      "coefficient": -0.1561544337737477,
+      "abs_coeff": 0.1561544337737477
+    },
+    {
+      "feature": "nom__Dependents_Yes",
+      "coefficient": -0.15190829762552882,
+      "abs_coeff": 0.15190829762552882
+    },
+    {
+      "feature": "bin__SeniorCitizen",
+      "coefficient": 0.14591592226752295,
+      "abs_coeff": 0.14591592226752295
+    },
+    {
+      "feature": "nom__DeviceProtection_Yes",
+      "coefficient": -0.08231396318981352,
+      "abs_coeff": 0.08231396318981352
+    },
+    {
+      "feature": "nom__PaymentMethod_Mailed check",
+      "coefficient": -0.03614650451928768,
+      "abs_coeff": 0.03614650451928768
+    },
+    {
+      "feature": "num__TotalCharges",
+      "coefficient": -0.029538715147317582,
+      "abs_coeff": 0.029538715147317582
+    },
+    {
+      "feature": "nom__TechSupport_No internet service",
+      "coefficient": -0.01909668048230874,
+      "abs_coeff": 0.01909668048230874
+    },
+    {
+      "feature": "nom__StreamingTV_No internet service",
+      "coefficient": -0.01909668048230874,
+      "abs_coeff": 0.01909668048230874
+    },
+    {
+      "feature": "nom__InternetService_No",
+      "coefficient": -0.01909668048230874,
+      "abs_coeff": 0.01909668048230874
+    },
+    {
+      "feature": "nom__DeviceProtection_No internet service",
+      "coefficient": -0.01909668048230874,
+      "abs_coeff": 0.01909668048230874
+    },
+    {
+      "feature": "nom__OnlineSecurity_No internet service",
+      "coefficient": -0.01909668048230874,
+      "abs_coeff": 0.01909668048230874
+    },
+    {
+      "feature": "nom__OnlineBackup_No internet service",
+      "coefficient": -0.01909668048230874,
+      "abs_coeff": 0.01909668048230874
+    },
+    {
+      "feature": "nom__StreamingMovies_No internet service",
+      "coefficient": -0.01909668048230874,
+      "abs_coeff": 0.01909668048230874
+    },
+    {
+      "feature": "nom__StreamingMovies_Yes",
+      "coefficient": 0.018467810718191077,
+      "abs_coeff": 0.018467810718191077
+    },
+    {
+      "feature": "nom__Partner_Yes",
+      "coefficient": 0.008062247736663516,
+      "abs_coeff": 0.008062247736663516
+    },
+    {
+      "feature": "bin__new_monthly_contract",
+      "coefficient": 0.0,
+      "abs_coeff": 0.0
+    },
+    {
+      "feature": "num__contract_investment_normalized",
+      "coefficient": 0.0,
+      "abs_coeff": 0.0
+    },
+    {
+      "feature": "bin__contract_with_security",
+      "coefficient": 0.0,
+      "abs_coeff": 0.0
+    },
+    {
+      "feature": "nom__StreamingTV_Yes",
+      "coefficient": 0.0,
+      "abs_coeff": 0.0
+    },
+    {
+      "feature": "nom__PaymentMethod_Credit card (automatic)",
+      "coefficient": 0.0,
+      "abs_coeff": 0.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      810,
+      225
+    ],
+    [
+      96,
+      278
+    ]
+  ],
+  "train_size": 5634,
+  "test_size": 1409,
+  "datetime": "2025-12-06T18:02:47.914336"
+}

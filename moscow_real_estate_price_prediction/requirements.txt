@@ -1,0 +1,23 @@
+# Основные
+pandas==1.5.3
+numpy==1.23.5
+
+# Визуализация
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Машинное обучение
+scikit-learn==1.2.2
+catboost==1.2.2
+
+# Оптимизация и интерпретация
+optuna==3.3.0
+optuna-integration==3.3.0  # для CatBoostPruningCallback
+shap==0.42.1
+
+# Для проверки GPU (опционально)
+tensorflow==2.12.0  # или tensorflow-cpu если не нужен GPU
+# torch==2.0.0  # только если используешь PyTorch
+
+# Рабочая среда
+jupyter==1.0.0
