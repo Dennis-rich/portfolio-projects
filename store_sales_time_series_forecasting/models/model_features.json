@@ -1,0 +1,34 @@
+{
+  "feature_columns": [
+    "family",
+    "city",
+    "state",
+    "store_type",
+    "onpromotion",
+    "promo_effect",
+    "month",
+    "day_of_week",
+    "is_weekend",
+    "is_month_start",
+    "is_month_end",
+    "is_national_holiday",
+    "is_regional_holiday",
+    "cluster",
+    "sales_lag_7",
+    "sales_lag_14",
+    "sales_lag_21",
+    "onpromotion_lag_7",
+    "onpromotion_lag_14"
+  ],
+  "categorical_features": [
+    "family",
+    "city",
+    "state",
+    "store_type"
+  ],
+  "model_file": "catboost_A_final.cbm",
+  "target": "sales",
+  "task": "regression",
+  "description": "Store sales forecasting model for time series portfolio",
+  "date_exported": "2025-12-16 16:47:52.584732"
+}
