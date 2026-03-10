@@ -1,0 +1,34 @@
+# Data files
+# === ДАННЫЕ И МОДЕЛИ (НЕ загружать в GitHub) ===
+data/raw/*
+data/processed/*
+data/vector_db/*
+models/*
+
+# === PYTHON ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# === JUPYTER / COLAB ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+colab-notebook.ipynb
+
+# === СЕКРЕТЫ И КОНФИГИ ===
+.env
+*.key
+*.token
+config.local.py
+
+# === СИСТЕМНЫЕ ===
+.DS_Store
+Thumbs.db
+*.log
