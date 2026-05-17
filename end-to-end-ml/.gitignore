@@ -1,0 +1,18 @@
+# Данные и тяжелые файлы
+data/**/*.parquet
+data/**/*.csv
+mlruns/
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
